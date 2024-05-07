@@ -1,21 +1,21 @@
 @font-face {
     font-family: "aileron-regular";
-    src: url("../fonts/Aileron-Regular.otf");
+    src: url("Aileron-Regular.otf");
 }
 
 @font-face {
     font-family: "aileron-semibold";
-    src: url("../fonts/Aileron-SemiBold.otf");
+    src: url("Aileron-SemiBold.otf");
 }
 
 @font-face {
     font-family: "aileron-bold";
-    src: url("../fonts/Aileron-Bold.otf");
+    src: url("Aileron-Bold.otf");
 }
 
 @font-face {
     font-family: "aileron-black";
-    src: url("../fonts/Aileron-Black.otf");
+    src: url("Aileron-Black.otf");
 }
 
 * {
@@ -108,7 +108,7 @@ html {
 
 /* header */
 header {
-    background-image: url("../img/header-bg.svg");
+    background-image: url("header-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -271,7 +271,7 @@ button,
 
 /* footer */
 footer {
-    background: url("../img/footer-bg.png");
+    background: url("footer-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
