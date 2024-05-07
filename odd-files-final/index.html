@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Odoo</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+    <!-- slick theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header pt-4">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" class="img-fluid logo" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-18" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-18" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-18" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-18" href="#">App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-18" href="#">Docs</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav gap-3 mb-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-18" href="#">Sign in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="px-24 py-12 d-flex justify-content-center align-items-center gap-2 rounded-sm btn btn-white fs-18"
+                                href="#">
+                                <img src="img/briefcase.svg" class="img-fluid briefcase" alt="">
+                                Buy now
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- divider -->
+        <div class="container">
+            <div class="line h-1 bg-white my-3"></div>
+        </div>
+        <!-- divider -->
+
+
+        <!-- hero -->
+        <section class="hero pt-5 mt-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6 m-auto">
+                        <h1 class="text-white bold lh-2 fs-36">
+                            Development <br>
+                            done right
+                        </h1>
+
+                        <p class="my-4 text-white">
+                            Build a beautiful, modern website with <br>flexible components built from scratch.
+                        </p>
+
+                        <a href=""
+                            class="btn btn-white px-4 py-3 d-inline-flex justify-content-center align-items-center gap-2">
+                            Get Started <img src="img/arrow-right.svg" class="img-fluid" alt="">
+                        </a>
+
+                        <div class="d-flex flex-wrap mt-5 justify-content-between align-items-center gap-2">
+                            <span class="text-white">Trusted by:</span>
+                            <img src="img/google.svg" class="img-fluid t-icon" alt="">
+                            <img src="img/spotify.svg" class="img-fluid t-icon" alt="">
+                            <img src="img/airbnb.svg" class="img-fluid t-icon" alt="">
+                            <img src="img/paypal.svg" class="img-fluid t-icon" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 offset-lg-1 m-auto">
+                        <img src="img/card.svg" class="img-fluid d-block ms-auto mt-md-0 mt-5" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero -->
+    </header>
+    <!-- header -->
+
+
+    <!-- tools -->
+    <section class="tools py-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="fs-20 bold text-63">
+                        TOOLS
+                    </p>
+
+                    <h2 class="fs-36 bold lh-2 mb-4">
+                        We build for designers and <br>developers
+                    </h2>
+
+                    <p class="text-72 fs-18 semibold">
+                        Get components and examples, including tons of <br>variables that will help you grow your
+                        business.
+                    </p>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1 position-relative">
+                    <div class="text-end">
+                        <div class="img-holder w-100 position-relative d-inline-flex ms-auto">
+                            <a href="" class="position-absolute play-btn">
+                                <img src="img/play.svg" class="img-fluid play" alt="">
+                            </a>
+                            <img src="img/vid-1.png" class="img-fluid w-100 d-block ms-auto" alt="">
+                        </div>
+                    </div>
+
+                    <!-- progress card -->
+                    <div class="progress-card position-absolute">
+                        <div class="card border-0 shadow">
+                            <div class="card-body py-4 px-3">
+                                <p class="fs-20 bold mb-4">
+                                    Awesome projects
+                                </p>
+
+                                <div class="progress-item mb-4">
+                                    <div class="d-flex mb-2 justify-content-between align-items-center">
+                                        <p class="mb-0">
+                                            Create the new logo
+                                        </p>
+                                        <p class="mb-0 text-72">
+                                            6:50 <i class="fa fa-chevron-right ms-2"></i>
+                                        </p>
+                                    </div>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-item mb-4">
+                                    <div class="d-flex mb-2 justify-content-between align-items-center">
+                                        <p class="mb-0">
+                                            Set up the color palette
+                                        </p>
+                                        <p class="mb-0 text-72">
+                                            6:50 <i class="fa fa-chevron-right ms-2"></i>
+                                        </p>
+                                    </div>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-item mb-4">
+                                    <div class="d-flex mb-2 justify-content-between align-items-center">
+                                        <p class="mb-0">
+                                            Wireframe and prototype
+                                        </p>
+                                        <p class="mb-0 text-72">
+                                            6:50 <i class="fa fa-chevron-right ms-2"></i>
+                                        </p>
+                                    </div>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="img/curve.svg" class="img-fluid curve-img d-block mx-auto" alt="">
+                    </div>
+                    <!-- progress card -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tools -->
+
+    <!-- features -->
+    <section class="features py-5 mt-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 position-relative">
+                    <div class="img-holder w-100 position-relative d-inline-flex ms-auto">
+                        <a href="" class="position-absolute play-btn">
+                            <img src="img/play.svg" class="img-fluid play" alt="">
+                        </a>
+                        <img src="img/vid-2.png" class="img-fluid w-100 d-block" alt="">
+                    </div>
+                    <img src="img/curve-right.svg" class="img-fluid curve-right position-absolute" alt="">
+                </div>
+
+                <div class="col-lg-5 offset-lg-1 my-auto">
+                    <p class="fs-20 bold text-63">
+                        FEATURES
+                    </p>
+
+                    <h2 class="fs-36 bold lh-2 mb-4 pb-3">
+                        Get components and <br> examples, including tons <br> of variables that will help <br> you grow
+                        your business.
+                    </h2>
+
+                    <div class="d-flex justify-content-start align-items-center gap-3">
+                        <img src="img/check.svg" class="img-fluid check-icon" alt="">
+                        <p class="mb-0 text-green fs-18">
+                            Perfect for modern startups
+                        </p>
+                    </div>
+                    <div class="d-flex mt-3 justify-content-start align-items-center gap-3">
+                        <img src="img/check.svg" class="img-fluid check-icon" alt="">
+                        <p class="mb-0 text-green fs-18">
+                            Fully customizable and scalable
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- features -->
+
+
+    <!-- tech -->
+    <section class="tech">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 my-auto">
+                    <p class="fs-20 bold text-63">
+                        TECHNOLOGY
+                    </p>
+
+                    <h2 class="fs-36 bold lh-2 mb-4">
+                        We use the latest <br> technologies on the market
+                    </h2>
+
+                    <p class="fs-18 semibold text-72 mb-4">
+                        Get components and examples, including tons of <br> variables that will help you grow your
+                        business.
+                    </p>
+
+                    <a href=""
+                        class="fs-18 text-decoration-none text-blue semibold d-flex justify-content-start align-items-center gap-2">
+                        See case studies <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-5 ps-0 offset-lg-1 position-relative">
+                    <div class="text-end position-relative">
+                        <img src="img/tech.svg" class="img-fluid w-100 position-relative z-100" alt="">
+                        <img src="img/curve.svg" class="tech-curve img-fluid position-absolute" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- tech -->
+
+    <!-- install -->
+    <section class="install py-5 mt-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 position-relative">
+                    <div class="img-holder w-100 position-relative d-inline-flex ms-auto">
+                        <a href="" class="position-absolute play-btn">
+                            <img src="img/play.svg" class="img-fluid play" alt="">
+                        </a>
+                        <img src="img/vid-3.png" class="img-fluid w-100 d-block" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1 my-auto">
+                    <p class="fs-20 bold text-63 text-uppercase">
+                        Easy to install
+                    </p>
+
+                    <h2 class="fs-36 bold lh-2 mb-4">
+                        Download, install and run
+                    </h2>
+
+                    <p class="text-72 fs-18 mb-4">
+                        Get components and examples, including tons of <br> variables that will help you grow your
+                        business.
+                    </p>
+
+                    <div class="d-flex justify-content-start align-items-center gap-4">
+                        <a href="" class="text-decoration-none">
+                            <img src="img/app-store.png" class="img-fluid download-link" alt="">
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <img src="img/g-play.png" class="img-fluid download-link" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- install -->
+
+
+    <!-- cta -->
+    <section class="cta py-5 cta">
+        <div class="container">
+            <div class="cta-card card border-0">
+                <div class="card-body p-5">
+                    <div class="px-5 py-4">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <h3 class="fs-32 mb-3 text-white bold">
+                                    Infinite solutions
+                                </h3>
+                                <p class="text-white fs-18 semibold">
+                                    Intuitive markup, powerful and lightning-fast build tools, <br> everything you need
+                                    to turn your ideas into incredible products.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-5 my-auto text-end">
+                                <a href=""
+                                    class="btn btn-white px-4 py-3 d-inline-flex justify-content-center align-items-center gap-2">
+                                    Learn more <img src="img/arrow-right.svg" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cta -->
+
+
+    <!-- happy customers -->
+    <section class="customers py-100 mt-5">
+        <div class="container">
+            <h2 class="bold fs-36 mb-3">
+                Our Happy Customers
+            </h2>
+            <p class="fs-24 text-72">
+                Lorem ipsum dolor sit amet consectetur
+            </p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="slider-holder">
+                <div class="slider">
+                    <div class="slide p-4">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <div class="text-center">
+                                    <img src="img/slide1.svg" class="img-fluid d-block mx-auto" alt="">
+                                    <div class="my-4">
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-black"></i>
+                                    </div>
+                                    <p class="bold mb-1">4.95 out of 5 stars</p>
+                                    <p class="mb-0 text-72 fs-14">
+                                        from 23 reviews
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="info pb-5 pt-3 px-3 bg-white position-absolute">
+
+
+                                <div class="text-center">
+                                    <p class="semibold text-72">
+                                        They build modern-looking websites easily using Tabs.
+                                    </p>
+                                    <a href="" class="fs-14 text-black text-decoration-none">
+                                        Learn more
+                                    </a>
+                                </div>
+
+                                <div class="line h-1 bg-black w-100px mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide p-4">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <div class="text-center">
+                                    <img src="img/slide2.svg" class="img-fluid d-block mx-auto" alt="">
+                                    <div class="my-4">
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-black"></i>
+                                    </div>
+                                    <p class="bold mb-1">4.95 out of 5 stars</p>
+                                    <p class="mb-0 text-72 fs-14">
+                                        from 23 reviews
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info pb-5 pt-3 px-3 bg-white position-absolute">
+
+
+                                <div class="text-center">
+                                    <p class="semibold text-72">
+                                        They build modern-looking websites easily using Tabs.
+                                    </p>
+                                    <a href="" class="fs-14 text-black text-decoration-none">
+                                        Learn more
+                                    </a>
+                                </div>
+
+                                <div class="line h-1 bg-black w-100px mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide p-4">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <div class="text-center">
+                                    <img src="img/slide3.svg" class="img-fluid d-block mx-auto" alt="">
+                                    <div class="my-4">
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-black"></i>
+                                    </div>
+                                    <p class="bold mb-1">4.95 out of 5 stars</p>
+                                    <p class="mb-0 text-72 fs-14">
+                                        from 23 reviews
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="info pb-5 pt-3 px-3 bg-white position-absolute">
+
+
+                                <div class="text-center">
+                                    <p class="semibold text-72">
+                                        They build modern-looking websites easily using Tabs.
+                                    </p>
+                                    <a href="" class="fs-14 text-black text-decoration-none">
+                                        Learn more
+                                    </a>
+                                </div>
+
+                                <div class="line h-1 bg-black w-100px mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide p-4">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <div class="text-center">
+                                    <img src="img/slide4.svg" class="img-fluid d-block mx-auto" alt="">
+                                    <div class="my-4">
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-black"></i>
+                                    </div>
+                                    <p class="bold mb-1">4.95 out of 5 stars</p>
+                                    <p class="mb-0 text-72 fs-14">
+                                        from 23 reviews
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="info pb-5 pt-3 px-3 bg-white position-absolute">
+
+
+                                <div class="text-center">
+                                    <p class="semibold text-72">
+                                        They build modern-looking websites easily using Tabs.
+                                    </p>
+                                    <a href="" class="fs-14 text-black text-decoration-none">
+                                        Learn more
+                                    </a>
+                                </div>
+
+                                <div class="line h-1 bg-black w-100px mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide p-4">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <div class="text-center">
+                                    <img src="img/slide5.svg" class="img-fluid d-block mx-auto" alt="">
+                                    <div class="my-4">
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-black"></i>
+                                    </div>
+                                    <p class="bold mb-1">4.95 out of 5 stars</p>
+                                    <p class="mb-0 text-72 fs-14">
+                                        from 23 reviews
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="info pb-5 pt-3 px-3 bg-white position-absolute">
+
+
+                                <div class="text-center">
+                                    <p class="semibold text-72">
+                                        They build modern-looking websites easily using Tabs.
+                                    </p>
+                                    <a href="" class="fs-14 text-black text-decoration-none">
+                                        Learn more
+                                    </a>
+                                </div>
+
+                                <div class="line h-1 bg-black w-100px mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide p-4">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <div class="text-center">
+                                    <img src="img/slide1.svg" class="img-fluid d-block mx-auto" alt="">
+                                    <div class="my-4">
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-black"></i>
+                                    </div>
+                                    <p class="bold mb-1">4.95 out of 5 stars</p>
+                                    <p class="mb-0 text-72 fs-14">
+                                        from 23 reviews
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info pb-5 pt-3 px-3 bg-white position-absolute">
+
+
+                                <div class="text-center">
+                                    <p class="semibold text-72">
+                                        They build modern-looking websites easily using Tabs.
+                                    </p>
+                                    <a href="" class="fs-14 text-black text-decoration-none">
+                                        Learn more
+                                    </a>
+                                </div>
+
+                                <div class="line h-1 bg-black w-100px mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide p-4">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <div class="text-center">
+                                    <img src="img/slide2.svg" class="img-fluid d-block mx-auto" alt="">
+                                    <div class="my-4">
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                        <i class="far fa-star text-black"></i>
+                                    </div>
+                                    <p class="bold mb-1">4.95 out of 5 stars</p>
+                                    <p class="mb-0 text-72 fs-14">
+                                        from 23 reviews
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info pb-5 pt-3 px-3 bg-white position-absolute">
+
+
+                                <div class="text-center">
+                                    <p class="semibold text-72">
+                                        They build modern-looking websites easily using Tabs.
+                                    </p>
+                                    <a href="" class="fs-14 text-black text-decoration-none">
+                                        Learn more
+                                    </a>
+                                </div>
+
+                                <div class="line h-1 bg-black w-100px mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text-end">
+                <div class="d-flex mt-4 justify-content-end align-items-center gap-4">
+                    <button class="btn p-0" id="prevBtn">
+                        <img src="img/slide-arrow.svg" class="img-fluid" alt="">
+                    </button>
+                    <button class="btn p-0" id="nextBtn">
+                        <img src="img/slide-arrow.svg" class="img-fluid" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- happy customers -->
+
+
+    <!-- faq -->
+    <section class="faq py-100">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fs-36 bold">Helpful answers</h2>
+                <p class="text-72 fs-18 mb-5">
+                    Start building fast, beautiful, and modern-looking websites in no time.
+                </p>
+            </div>
+
+            <div class="col-md-7 mx-auto">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="d-flex justify-content-start align-items-center gap-4">
+                                    <img src="img/file.svg" class="img-fluid file-icon" alt="">
+                                    <span class="fs-24 semibold text-black">Which license do I need?</span>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body semibold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="d-flex justify-content-start align-items-center gap-4">
+                                    <img src="img/file.svg" class="img-fluid file-icon" alt="">
+                                    <span class="fs-24 semibold text-black">Which license do I need?</span>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="d-flex justify-content-start align-items-center gap-4">
+                                    <img src="img/file.svg" class="img-fluid file-icon" alt="">
+                                    <span class="fs-24 semibold text-black">How do I get access to my database?</span>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <div class="d-flex justify-content-start align-items-center gap-4">
+                                    <img src="img/file.svg" class="img-fluid file-icon" alt="">
+                                    <span class="fs-24 semibold text-black">How do I see previous orders?</span>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center pt-4">
+                <p class="mt-5 fs-24 semibold">
+                    I want to start a new project.
+                </p>
+
+                <div class="d-flex mt-4 justify-content-center align-items-center gap-4">
+                    <a href=""
+                        class="btn btn-blue px-4 py-3 d-inline-flex justify-content-center align-items-center gap-2">
+                        Buy now <img src="img/arrow-white.svg" class="img-fluid" alt="">
+                    </a>
+                    <a href=""
+                        class="btn btn-white px-4 py-3 d-inline-flex justify-content-center align-items-center gap-2">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq -->
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-auto">
+                    <h3 class="fs-28 text-white semibold">
+                        Brilliant solutions for your ideas
+                    </h3>
+                    <p class="text-white fs-18 mb-0">
+                        Modern looking websites.
+                    </p>
+                </div>
+
+                <div class="col-md-6 my-auto">
+                    <div class="d-flex mob-column justify-content-end align-items-center gap-4">
+                        <a class="px-4 py-3 d-flex justify-content-center align-items-center gap-2 rounded-sm btn btn-white fs-18"
+                            href="#">
+                            <img src="img/doc.svg" class="img-fluid briefcase" alt="">
+                            Documentation
+                        </a>
+                        <a class="px-4 py-3 d-flex justify-content-center align-items-center gap-2 rounded-sm btn btn-blue fs-18"
+                            href="#">
+                            Purchase now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <img src="img/grad-line.svg" class="w-100 img-fluid" alt="">
+            </div>
+
+            <div class="row g-3">
+                <div class="col-lg-7">
+                    <a href="" class="text-decoration-none">
+                        <img src="img/logo.png" class="img-fluid logo" alt="">
+                    </a>
+
+                    <p class="my-5 fs-14 text-white semibold">
+                        Odoo attempts to bring the best development <br> experience to designers and developers by
+                        <br>
+                        offering the tools needed for having a quick <br> and solid start in most web projects.
+                    </p>
+
+                    <div class="d-flex justify-content-start align-items-center gap-4">
+                        <a href="" class="text-gray text-decoration-none">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="" class="text-gray text-decoration-none">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="text-gray text-decoration-none">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="text-gray text-decoration-none">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <p class="text-white mb-4 semibold">
+                                Account
+                            </p>
+
+                            <ul class="list-unstyled m-0 p-0">
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Profile
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Settings
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Billing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Notifications
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-white mb-4 semibold">
+                                About
+                            </p>
+
+                            <ul class="list-unstyled m-0 p-0">
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Services
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Careers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-white mb-4 semibold">
+                                Company
+                            </p>
+
+                            <ul class="list-unstyled m-0 p-0">
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Community
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Help center
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-c3 text-decoration-none fs-14">
+                                        Support
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 mb-3">
+                <img src="img/grad-line.svg" class="w-100 img-fluid" alt="">
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 my-auto">
+                    <p class="mb-0 text-c3 mob-center fs-14 semibold">
+                        © <span class="text-white">Odoo</span>. All rights reserved
+                    </p>
+                </div>
+
+                <div class="col-md-6 my-auto">
+                    <div class="d-flex justify-content-end mob-center align-items-center gap-4">
+                        <a href="" class="fs-14 text-c3 text-decoration-none semibold">Terms</a>
+                        <a href="" class="fs-14 text-c3 text-decoration-none semibold">Privacy</a>
+                        <a href="" class="fs-14 text-c3 text-decoration-none semibold">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- slick -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- app js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
